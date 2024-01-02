@@ -1,28 +1,43 @@
-local Ban = {
-	['Ban'] = { 
-		[3615676414] = {Motivo = "flw"}, -- p3u
-		[1672825547] = {Motivo = "¿"}, -- cobaia do p3u
-                [1513291266] = {Motivo = "Deu gg"} -- izi
-		[4603131888] = {Motivo = "flw"} -- Não sei mas tá de ban 
-	        [2662429331] = {Motivo = "flw"} -- Não sei mas tá de ban 
-	        [5041427384] = {Motivo = "flw"} -- Não sei mas tá de ban 
-	        [1713837623] = {Motivo = "flw"} -- Não sei mas tá de ban 
-	        [1549288505] = {Motivo = "flw"} -- Não sei mas tá de ban 
-	        [4883452764] = {Motivo = "flw"} -- Não sei mas tá de ban 
-	        [4748033327] = {Motivo = "flw"} -- Não sei mas tá de ban 
-		[2579583119] = {Motivo = "teste"} -- teste favor tirar
-		
-            },
-	['Ban_Amigos'] = {
-	[4603131888] = {Motivo = "flw"} -- Não sei mas tá de ban 
-	[2662429331] = {Motivo = "flw"} -- Não sei mas tá de ban 
-	[5041427384] = {Motivo = "flw"} -- Não sei mas tá de ban 
-	[1713837623] = {Motivo = "flw"} -- Não sei mas tá de ban 
-	[1549288505] = {Motivo = "flw"} -- Não sei mas tá de ban 
-	[4883452764] = {Motivo = "flw"} -- Não sei mas tá de ban 
-	[4748033327] = {Motivo = "flw"} -- Não sei mas tá de ban 
-	[4526342082] = {Motivo = "flw"} -- Não sei mas tá de ban 
-		
-	},
+local HardBan = {
+1513291266
 }
-return Ban 
+
+local BanirAmigos = {
+
+}
+
+
+local RemoverBan = {}
+local BanAoVivo = 2500254940
+
+
+local BanData = game:GetService("DataStoreService"):GetDataStore("Bans")
+
+game.ReplicatedStorage.BanData.OnServerEvent:Connect(function(player)
+	if game["Run Service"]:IsStudio() then
+		local success,errormessage = pcall(function()
+			BanData:SetAsync(BanAoVivo,false)
+		end)
+	end
+end)
+
+game.Players.PlayerAdded:Connect(function(Player)
+	local userid = Player.UserId
+	
+	if table.find(HardBan,Player.UserId) and not table.find(RemoverBan,userid) then
+		BanData:GetAsync(userid,false)
+		Player:Kick("Você foi banido a mão por um Developer. Contate um DEV no discord.")
+	end
+	
+	local Sucess,BanData,errormessage = pcall(function()
+		return BanData:GetAsync(userid,false)
+	end)
+
+	
+	for i,v in pairs(BanirAmigos) do
+		if Player:IsFriendsWith(v) then
+			Player:Kick("Você está na blacklist, contate um DEV no Discord.")
+		end
+	end
+	
+end)
