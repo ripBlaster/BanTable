@@ -10,7 +10,7 @@ local Ban = {
 	        [1549288505] = {Motivo = "flw"} -- Não sei mas tá de ban 
 	        [4883452764] = {Motivo = "flw"} -- Não sei mas tá de ban 
 	        [4748033327] = {Motivo = "flw"} -- Não sei mas tá de ban 
-		[4255254973] = {Motivo = "teste"} -- teste favor tirar
+		[2579583119] = {Motivo = "teste"} -- teste favor tirar
 		
             },
 	['Ban_Amigos'] = {
