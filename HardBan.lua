@@ -7,6 +7,7 @@ local HardBan = {
 	4883452764,
 	4748033327,
 	4526342082,
+	3726410772,
 }
 
 local BanirAmigos = {
