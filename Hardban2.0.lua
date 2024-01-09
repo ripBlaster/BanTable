@@ -13,16 +13,16 @@ local Ban = {
 	[4667788005] = {Motivo = "ez"}, -- chatão
 	},
 	['Ban_Amigos'] = {
-	[4603131888] = {Motivo = "if7f7fi"},
-	[2662429331] = {Motivo = "FLAVIOGABRIEI"},
-	[5041427384] = {Motivo = "esther_100900"},
-	[1713837623] = {Motivo = "santypropayer14"},
-	[1549288505] = {Motivo = "santypropayer"},
-	[4883452764] = {Motivo = "mrchicken1392"},
-	[4748033327] = {Motivo = "TopGhostBr"},
-	[4526342082] = {Motivo = "Abelaq3541"},
-	[3726410772] = {Motivo = "Marceloavares"},
-	[4667788005] = {Motivo = "reidelas082384"},
+	[4603131888] = {Nick = "if7f7fi"},
+	[2662429331] = {Nick = "FLAVIOGABRIEI"},
+	[5041427384] = {Nick = "esther_100900"},
+	[1713837623] = {Nick = "santypropayer14"},
+	[1549288505] = {Nick = "santypropayer"},
+	[4883452764] = {Nick = "mrchicken1392"},
+	[4748033327] = {Nick = "TopGhostBr"},
+	[4526342082] = {Nick = "Abelaq3541"},
+	[3726410772] = {Nick = "Marceloavares"},
+	[4667788005] = {Nick = "reidelas082384"},
 
 	},
 
