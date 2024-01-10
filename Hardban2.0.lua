@@ -1,16 +1,6 @@
 local Ban = {
 	['Ban'] = { 
-	[3615676414] = {Motivo = "p3u"}, -- p3u
-        [4603131888] = {Motivo = "flw"}, -- n sei
-	[2662429331] = {Motivo = "flw"}, -- n sei
-	[5041427384] = {Motivo = "flw"},-- n sei
-	[1713837623] = {Motivo = "flw"},-- n sei
-	[1549288505] = {Motivo = "flw"},-- n sei
-	[4883452764] = {Motivo = "flw"},-- n sei
-	[4748033327] = {Motivo = "abuser"}, --ban all
-	[4526342082] = {Motivo = "processa ai vai"}, -- abusou do gojo e falou que ia processar
-	[3726410772] = {Motivo = "discriminação"}, -- machismo
-	[4667788005] = {Motivo = "ez"}, -- chatão
+	[1513291266] = {Motivo = "ok"}, -- p3u
 	},
 	['Ban_Amigos'] = {
 	[4603131888] = {Nick = "if7f7fi"},
