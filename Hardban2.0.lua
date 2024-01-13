@@ -1,6 +1,15 @@
 local Ban = {
 	['Ban'] = { 
-	[1513291266] = {Motivo = "ok"}, -- p3u
+	[4603131888] = {Motivo = "flw"},
+	[2662429331] = {Motivo = "flw"},
+	[5041427384] = {Motivo = "flw"},
+	[1713837623] = {Motivo = "flw"},
+	[1549288505] = {Motivo = "flw"},
+	[4883452764] = {Motivo = "flw"},
+	[4748033327] = {Motivo = "flw"},
+	[4526342082] = {Motivo = "flw"},
+	[3726410772] = {Motivo = "flw"},
+	[4667788005] = {Motivo = "flw"},
 	},
 	['Ban_Amigos'] = {
 	[4603131888] = {Nick = "if7f7fi"},
