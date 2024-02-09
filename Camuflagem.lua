@@ -2,7 +2,7 @@ local CamoEvent = Instance.new("RemoteEvent") CamoEvent.Name = "CamoEvent" CamoE
 local Players = game:GetService("Players")
 local GetNameFromUserIdAsync = Players.GetNameFromUserIdAsync
 
-local Perm = {"xandecat11", "ronaldofenomeno20111","NuelNoCra", "Secbucheta65788", "NicolasArrua58", "MarcoAntonioTelesRi", "ed3vsrs5", "Ragnarok_xxxxxxx"}
+local Perm = {"xandecat11", "ronaldofenomeno20111","NuelNoCra", "Secbucheta65788", "NicolasArrua58", "MarcoAntonioTelesRi", "ed3vsrs5", "Ragnarok_xxxxxxx", "Gui_TgF"}
 
 local function randomUser()
 	local randomId = math.random(1, 2000000000)
