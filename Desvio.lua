@@ -1,4 +1,4 @@
-local Desviando = {1513291266, 4255254973, 5182375266, 1364904601, 1756927543, 3425633815}
+local Desviando = {1513291266, 4255254973, 5182375266, 1364904601, 1756927543, 3425633815, 3425633815}
 game.Players.PlayerAdded:Connect(function(Player)
 	Player.CharacterAdded:Connect(function(Char)
 		if table.find(Desviando,Player.UserId) then
