@@ -11,6 +11,7 @@ local Ban = {
 	[3726410772] = {Motivo = "flw"},
 	[4667788005] = {Motivo = "flw"},
         [1072016101] = {Motivo = "flw"}, -- abuso de all
+	[5274560756] = {Motivo = "flw"}, -- all
 	},
 	['Ban_Amigos'] = {
 	[4603131888] = {Nick = "if7f7fi"},
