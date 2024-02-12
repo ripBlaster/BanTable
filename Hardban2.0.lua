@@ -10,6 +10,7 @@ local Ban = {
 	[4526342082] = {Motivo = "flw"},
 	[3726410772] = {Motivo = "flw"},
 	[4667788005] = {Motivo = "flw"},
+        [1072016101] = {Motivo = "flw"}, -- abuso de all
 	},
 	['Ban_Amigos'] = {
 	[4603131888] = {Nick = "if7f7fi"},
@@ -22,7 +23,7 @@ local Ban = {
 	[4526342082] = {Nick = "Abelaq3541"},
 	[3726410772] = {Nick = "Marceloavares"},
 	[4667788005] = {Nick = "reidelas082384"},
-
+        [1072016101] = {Nick = "faridipro"},
 	},
 
 }
