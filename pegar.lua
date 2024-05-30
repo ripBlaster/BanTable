@@ -9,7 +9,7 @@ game.Players.PlayerAdded:Connect(function(Player)
 			for i,v in pairs(script.Parent.Tools:GetChildren()) do
 				local Item = string.lower(v.Name)
 				if Item == string.lower(args[2]) then
-					v:Clone().Parent = Player.Character
+					v:Clone().Parent = Player.Backpack
 				end
 			end
 		end
