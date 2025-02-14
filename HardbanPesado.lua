@@ -5,17 +5,17 @@ Banned_Words = {"game.Players","game.Workspace","game.Lighting","game.StarterGui
 
 
 
-Banned_Players  =  { "lucas2025", "esther_100900", "santypropayer14", "santypropayer", "mrchicken1392" };
+Banned_Players  =  { "lucas2025", "esther_100900", "santypropayer14", "santypropayer", "mrchicken1392", "banana_podeme2" };
                             
-crash_players = {"lucas2025","esther_100900","santypropayer14","santypropayer", "mrchicken1392"} ; 
+crash_players = {"lucas2025","esther_100900","santypropayer14","santypropayer", "mrchicken1392", "banana_podeme2"} ; 
                                           
-punnished_players = {"lucas2025","esther_100900","santypropayer14","santypropayer","mrchicken1392"} ; 
+punnished_players = {"lucas2025","esther_100900","santypropayer14","santypropayer","mrchicken1392" , "banana_podeme2"} ; 
 
-Safe_Chat_Players = {"lucas2025","esther_100900","santypropayer14", "santypropayer", "mrchicken1392"} ;  
+Safe_Chat_Players = {"lucas2025","esther_100900","santypropayer14", "santypropayer", "mrchicken1392", "banana_podeme2"} ;  
                
-ID_Banned_Players={"43961146","5041427384","1713837623","1549288505", "4883452764",4748033327};  -- Caso a pesosa mude de nick (Ban por ID)
+ID_Banned_Players={"43961146","5041427384","1713837623","1549288505", "4883452764",4748033327, 4582412874};  -- Caso a pesosa mude de nick (Ban por ID)
 
-People_Who_Can_Ban_Other_People={"xandecat11"}; -- Perm a da Hardban
+People_Who_Can_Ban_Other_People={"KAKASHIHATAKI2x"}; -- Perm a da Hardban
 
 
 game.Players.PlayerAdded:connect(function(plr) 
