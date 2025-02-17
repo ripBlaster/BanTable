@@ -5,7 +5,7 @@ Banned_Words = {"game.Players","game.Workspace","game.Lighting","game.StarterGui
 
 
 
-Banned_Players  =  { "lucas2025", "esther_100900", "santypropayer14", "santypropayer", "mrchicken1392", "banana_podeme2" };
+Banned_Players  =  { "lucas2025", "esther_100900", "santypropayer14", "santypropayer", "mrchicken1392", "banana_podeme2" , "Carlin_pvpzin" };
                             
 crash_players = {"lucas2025","esther_100900","santypropayer14","santypropayer", "mrchicken1392", "banana_podeme2"} ; 
                                           
